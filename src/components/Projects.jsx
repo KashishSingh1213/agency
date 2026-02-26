@@ -89,7 +89,7 @@ const Projects = () => {
   const isInView = useInView(sectionRef, { once: true, margin: '-20%' });
 
   return (
-    <section id="projects" className="pt-40 pb-20 bg-dark relative overflow-hidden">
+    <section id="projects" className="py-16 bg-dark relative overflow-hidden">
       {/* Design Grid Background */}
       <div className="absolute inset-0 grid grid-cols-4 md:grid-cols-12 pointer-events-none px-6 max-w-7xl mx-auto">
         {[...Array(13)].map((_, i) => (
@@ -98,7 +98,7 @@ const Projects = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <div className="mb-24 md:mb-32">
+        <div className="mb-12 md:mb-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}

@@ -46,7 +46,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-40 relative bg-dark">
+    <section id="about" className="py-16 relative bg-dark">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <motion.div
@@ -56,7 +56,7 @@ const About = () => {
             transition={{ duration: 1 }}
           >
             <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block">Our Ethos</span>
-            <h2 className="text-5xl md:text-8xl font-black tracking-tighter leading-tight mb-10">
+            <h2 className="text-5xl md:text-8xl font-black tracking-tighter leading-tight mb-6">
               WE ARE <br />
               <span className="text-gradient">NOT</span> JUST AN <br />
               AGENCY.

@@ -12,7 +12,7 @@ const Agency = () => {
     ];
 
     return (
-        <section id="agency" className="py-40 bg-dark relative overflow-hidden">
+        <section id="agency" className="py-16 bg-dark relative overflow-hidden">
             {/* Background large text */}
             <div className="absolute top-1/2 left-0 -translate-y-1/2 text-[20vw] font-black text-white/[0.02] whitespace-nowrap pointer-events-none select-none">
                 THE AGENCY / THE AGENCY / THE AGENCY
@@ -27,8 +27,8 @@ const Agency = () => {
                             animate={isInView ? { opacity: 1, y: 0 } : {}}
                             transition={{ duration: 1 }}
                         >
-                            <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-8 block">Evolution</span>
-                            <h2 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-10">
+                            <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block">Evolution</span>
+                            <h2 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-6">
                                 A NEW <br />
                                 <span className="text-gradient">STANDARD</span> <br />
                                 OF FLUX.
